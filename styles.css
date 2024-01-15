@@ -1,0 +1,161 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    width: 100vw;
+}
+
+ul{
+    line-height: 3;
+    padding: 2rem;
+    list-style: none;
+}
+
+.here{
+    margin: 0rem 0rem 3rem 0rem;
+}
+
+.more{
+    height: 40px;
+    width: 50px;
+    cursor: pointer;
+}
+
+.logo{
+    height: 50px;
+    width: 50px;
+    margin: 1rem 0rem 0rem 5rem;
+}
+
+.background{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.349),black), url('images/side_pic.jpg');
+    background-size: cover;
+}
+
+.content{
+    display: flex;
+    align-items: center;
+    height: 100vh;
+}
+
+.image{
+    margin-left: 12rem;
+}
+
+.font1{
+    font-family: 'Londrina Outline', sans-serif;
+    color: white;
+    font-size: 3.5rem;
+}
+
+.name1{
+    margin-left: 5rem;
+}
+
+.font2{
+    font-family: 'Londrina Outline', sans-serif;
+    font-family: 'Mulish', sans-serif;
+    color: white;
+    font-size: 3rem;
+}
+
+.listennow{
+  background-color: #04AA6D;
+  font-family: 'Londrina Outline', sans-serif;
+  font-family: 'Mulish', sans-serif;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  border-style: none;
+  display: inline-block;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.share{
+    background-color: rgba(255, 255, 255, 0);
+    font-family: 'Londrina Outline', sans-serif;
+    font-family: 'Mulish', sans-serif;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    border-color: white;
+    border-style: solid;
+    display: inline-block;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.name2{
+    margin-left: 12rem;
+    margin-top: -4rem;  
+}
+
+.table1{
+    color: white;
+    margin: 0;
+    padding: 0;
+    border: 2px solid;
+    border-color: white;
+}
+
+.fa-headphones-simple{
+    color: white;
+    margin-top: 2rem;
+    margin-left: 12rem;
+    cursor: pointer;
+}
+
+.fa-compass{
+    color: white;
+    margin-top: 2rem;
+    margin-left: 2rem;
+    cursor: pointer;
+}
+
+.fa-brands{
+    color: white;
+    margin-top: 2rem;
+    margin-left: 2rem;
+    cursor: pointer;
+}
+
+.name3{
+    margin-top: 4rem;
+    margin-left: 12rem;
+}
+
+.tracklist{
+    display: flex;
+    justify-content: space-between;
+}
+
+.track{
+    color: white;
+    line-height: 5;
+    font-size: 1.4rem;
+    margin-left: 11rem;
+    border-spacing: 2rem;
+}
+
+.title{
+    cursor: pointer;
+}
+
+.time{
+    border-style: none;
+    margin-right: 5rem;
+}
+
+.video{
+    line-height: 3;
+    margin-left: 12rem;
+    height: 50rem;
+    width: 90rem;
+}
